@@ -1,0 +1,143 @@
+# Greggory Design — Product Catalog
+
+Source: greggorydesign.com online store · **137 products** · images in `images/`
+
+| # | Product | Price | In stock | Images |
+|---|---------|-------|----------|--------|
+| 1 | "BASEBALL" DESIGN APPAREL | $27.95 | yes | 5 |
+| 2 | "GLITTER" CHEER GEAR | $29.95 | yes | 6 |
+| 3 | "MOM" SPORT SPECIFIC DESIGN | $27.95 | yes | 5 |
+| 4 | "PLATE" DESIGN APPAREL | $27.95 | yes | 5 |
+| 5 | "PROUD EAGLE" SPIRIT DESIGN | $24.95 | yes | 5 |
+| 6 | "R EAGLES SPIRIT APPAREL | $27.95 | yes | 2 |
+| 7 | "SERVE" APPAREL | $27.95 | yes | 6 |
+| 8 | "SPORT SPECIFIC BALL" DESIGN | $24.95 | yes | 4 |
+| 9 | "THE RIDGE" SPIRIT APPAREL | $24.95 | yes | 5 |
+| 10 | "UNDERLINED EAGLES" SPIRIT APPAREL | $27.95 | yes | 6 |
+| 11 | "VERTICAL EAGLES" SPIRIT DESIGN | $27.95 | yes | 6 |
+| 12 | "WE ARE EAGLES" SPIRIT DESIG | $27.95 | yes | 4 |
+| 13 | 'ANGLED EAGLES" SPIRIT DESIGN | $24.95 | yes | 6 |
+| 14 | 250 YEARS OF FREEDOM | $29.95 | yes | 8 |
+| 15 | 250 YEARS OF FREEDOM APPAREL | $29.95 | yes | 8 |
+| 16 | 250TH ANNIVERSARY FLAG DESIGN | $29.95 | yes | 7 |
+| 17 | 911 DISPATCHER DESIGN | $27.95 | yes | 8 |
+| 18 | ADULT CORE SOFT SHELL JACKET | $49.95 | yes | 2 |
+| 19 | ANGLED UP EAGLES APPAREL | $24.95 | yes | 4 |
+| 20 | ARMY - "FLAG MOS" DESIGN | $24.95 | yes | 3 |
+| 21 | BACPACK - OGIO FUGITVE PACK | $89.95 | yes | 1 |
+| 22 | BGSU PULLOVER | $44.95 | yes | 3 |
+| 23 | BOYS CLASSIC POLO | $27.95 | yes | 3 |
+| 24 | BOYS DRI-FIT POLOS | $29.95 | yes | 3 |
+| 25 | CLASSIC "R" DESIGN | $24.95 | yes | 5 |
+| 26 | CS "WORK TOGETHER" TEES | $29.95 | yes | 4 |
+| 27 | CUSTOM ARTWORK -"Bear" Bryant with 2009 National Champions WATERCOLOR LIMITED PRINT (500) | $250.00 | yes | 2 |
+| 28 | CUSTOM ARTWORK -Charles Barkley pencil drawing LIMITED PRINT (1-500) Signed by artist | $150.00 | yes | 2 |
+| 29 | CUSTOM ARTWORK -Chris Chandler pencil drawing (1-500) | $100.00 | yes | 2 |
+| 30 | CUSTOM ARTWORK -Clint "DIrty Harry Eastwood drawing LIMITED PRINT (1-500) Signed by artist | $150.00 | yes | 1 |
+| 31 | CUSTOM ARTWORK -LARRY FITZGERALD WATERCOLOR LIMITED PRINT (500) | $150.00 | yes | 1 |
+| 32 | Class of 2027 TEE | $29.00 | yes | 1 |
+| 33 | Custom Cancer Shirt | $50.00 | yes | 1 |
+| 34 | Custom Hockey Jersey | $50.00 | yes | 2 |
+| 35 | DISTRESSED HATS WITH PATCH | $29.95 | yes | 1 |
+| 36 | DUFFEL BAG - NEW ERA SHOUT OUT BAG | $79.95 | yes | 1 |
+| 37 | EAGLE EYES SPIRIT APPAREL | $24.95 | yes | 5 |
+| 38 | EAGLES E DESIGN | $24.95 | yes | 4 |
+| 39 | FITTED HATS W/PATCH | $29.95 | yes | 1 |
+| 40 | GIRLS / LADIES CURSIVE EAGLES DESIGN | $24.95 | yes | 5 |
+| 41 | GOLF TOWEL | $19.95 | yes | 1 |
+| 42 | HALLOWEEN - "I'M A GHOST - BOO" DESIGN | $21.95 | yes | 3 |
+| 43 | HALLOWEEN SERIES - "DRINK UP WITCHES" DESIGN | $24.95 | yes | 4 |
+| 44 | HALLOWEEN SERIES - "I DON'T SPOOK, I SPARKLE" DESIGN | $24.95 | yes | 3 |
+| 45 | HALLOWEEN SERIES - "PEACE OUT GHOST" DESIGN | $24.95 | yes | 3 |
+| 46 | HALLOWEEN SERIES - "SHE SKELETON" DESIGN | $24.95 | yes | 3 |
+| 47 | HALLOWEEN SERIES - "SO CUTE, IT'S SCARY" DESIGN | $19.95 | yes | 4 |
+| 48 | HALLOWEEN SERIES - "WITCHES BE CRAZY" DESIGN | $24.95 | yes | 4 |
+| 49 | HAT - POM BEANIE | $19.95 | yes | 1 |
+| 50 | JACKET - YOUTH FLEECE | $37.95 | yes | 1 |
+| 51 | JACKET - YOUTH TRI-COT | $39.95 | yes | 1 |
+| 52 | LADIES BLING GEAR | $29.95 | yes | 8 |
+| 53 | LADIES CLASSIC ROYAL AND ORANGE POLO | $27.95 | yes | 2 |
+| 54 | LADIES EAGLES ARC SOFTBALL APPAREL | $27.95 | yes | 4 |
+| 55 | LADIES LION & CROSS TEE | $24.95 | yes | 5 |
+| 56 | LONG SLEEVE BASEBALL APPAREL DESIGN | $29.95 | yes | 2 |
+| 57 | MADE IN AMERICA WITH " YOUR COUNTRY OF CHOICE" PARTS | $29.95 | yes | 1 |
+| 58 | MENS CLASSIS ROYAL AND ORANGE POLO | $27.95 | yes | 2 |
+| 59 | MENS CORE JACKET | $44.95 | yes | 1 |
+| 60 | MENS EAGLES ARC BASEBALL APPAREL | $27.95 | yes | 5 |
+| 61 | MENS FLEECE JACKET | $39.95 | yes | 1 |
+| 62 | MENS LONG SLEEVE "LANE" SHIRT | $32.95 | yes | 2 |
+| 63 | MESSENGER LAPTOP BAG | $59.95 | yes | 1 |
+| 64 | NVCA CLASS OF 2027 BOX DESIGN APPAREL | $29.95 | yes | 4 |
+| 65 | NVCA CLASS OF 2027 CURSIVE DESIGN APPAREL | $27.95 | yes | 3 |
+| 66 | NVCA CLASS OF 2027 LION SHIELD DESIGN APPAREL | $29.95 | yes | 5 |
+| 67 | NVCA YOUTH TRI-COT ZIPPERED JACKET | $49.95 | yes | 1 |
+| 68 | North Valley Christian Academy Lions T-Shirt | $27.95 | yes | 1 |
+| 69 | PE PACKAGE - MENS & WOMENS | $29.50 | yes | 2 |
+| 70 | PE PACKAGE - YOUTH SIZING | $29.50 | yes | 1 |
+| 71 | PE SHIRT - MENS/BOYS/LADIES SIZED | $17.95 | yes | 3 |
+| 72 | PHOENIX BIRD DESIGN | $27.95 | yes | 9 |
+| 73 | POLO - ADULT MENS CLASSIC LONG SLEEVE 60/40 BLEND | $32.95 | yes | 3 |
+| 74 | POLO - ADULT MENS SILK/FEEL STYLE | $29.95 | yes | 4 |
+| 75 | POLO - BOYS LONG SLEEVE CLASSIC 60/40 BLEND | $29.95 | yes | 2 |
+| 76 | POLO - BOYS ORANGE | $27.95 | yes | 1 |
+| 77 | POLO - BOYS ROYAL BLUE | $27.95 | yes | 1 |
+| 78 | POLO - BOYS/YOUTH LONG SLEEVE ROYAL BLUE | $29.95 | yes | 2 |
+| 79 | POLO - GIRLS CLASSIC NAVY / LT BLUE / WHITE - 60/40 BLEND | $27.95 | yes | 4 |
+| 80 | POLO - GIRLS ORANGE RUFFLE FRONT SOFT PIQUE POLO | $27.95 | yes | 1 |
+| 81 | POLO - GIRLS ROYAL BLUE | $27.95 | yes | 1 |
+| 82 | POLO - GIRLS ROYAL BLUE | $27.95 | yes | 1 |
+| 83 | POLO - LADIES "NIKE" NAVY & WHITE DRI-FIT | $44.95 | yes | 3 |
+| 84 | POLO - LADIES CLASSIC 60/40 BLEND | $27.95 | yes | 3 |
+| 85 | POLO - LADIES DRI-FIT | $29.95 | yes | 3 |
+| 86 | POLO - LADIES LONG SLEEVE | $32.95 | yes | 1 |
+| 87 | POLO - LADIES ORANGE AND ROYAL DRI-FIT | $29.95 | yes | 2 |
+| 88 | POLO - LADIES ROYAL DRI-FIT | $29.95 | yes | 1 |
+| 89 | POLO - MENS "NIKE" DRI-FIT | $44.95 | yes | 4 |
+| 90 | POLO - MENS "NIKE" DRI-FIT | $49.95 | yes | 4 |
+| 91 | POLO - MENS CLASSIC 60/40 BLEND | $27.95 | yes | 4 |
+| 92 | POLO - MENS DRI-FIT | $29.95 | yes | 4 |
+| 93 | POLO - MENS LONG SLEEVE | $32.95 | yes | 1 |
+| 94 | POLO - MENS ROYAL DRI-FIT | $29.95 | yes | 1 |
+| 95 | POLO - RL YOUTH BOYS DRI-FIT | $29.95 | yes | 1 |
+| 96 | POLO - YOUTH DRIFIT | $29.95 | yes | 1 |
+| 97 | POLO - YOUTH SILK FEEL/STYLE | $29.95 | yes | 3 |
+| 98 | PPD COMMUNICATIONS LADIES & MENS CLASSSIC BLEND POLOS | $29.95 | yes | 2 |
+| 99 | PRACTICE LIKE A CHAMPION DESIGN | $29.95 | yes | 4 |
+| 100 | PROTECT THE NEST APPAREL | $27.95 | yes | 4 |
+| 101 | PULLOVER - "CLASS OF" EDITION | $44.95 | yes | 6 |
+| 102 | PULLOVER - ADULT (MENS SIZED) NAVY / LIGHT BLUE / WHITE OPTIONS | $34.95 | yes | 4 |
+| 103 | PULLOVER - ADULT SIZED NAVY / LIGHT BLUE / WHITE OPTIONS | $39.95 | yes | 7 |
+| 104 | PULLOVER - YOUTH (BOYS) SIZED | $34.95 | yes | 4 |
+| 105 | RIDGELINE CHEER I DESIGN | $24.95 | yes | 5 |
+| 106 | RIDGELINE EAGLE HEAD VISOR | $19.95 | yes | 3 |
+| 107 | RIDGELINE SPORT 2-TONE SPORT DESIGN | $24.95 | yes | 2 |
+| 108 | RL ADULT/YOUTH PE SHIRTS | $17.95 | yes | 2 |
+| 109 | RL MENS DRI-FIT ROYAL ORANGE POLO | $29.95 | yes | 2 |
+| 110 | SCARF - NVCA LION | $19.95 | yes | 1 |
+| 111 | SERVE AS JESUS DID DESIGN | $24.95 | yes | 6 |
+| 112 | SLEEP DEPRIVED & BARELY ALIVE DESIGN | $24.95 | yes | 6 |
+| 113 | SPIRIT DESIGN - "EAGELE EYES" | $24.95 | yes | 5 |
+| 114 | SPIRIT DESIGN - "PROUD EAGLE" | $24.95 | yes | 8 |
+| 115 | SPIRIT DESIGN - LOVE EAGLES | $24.95 | yes | 4 |
+| 116 | SPIRIT TEE - "THE RIDGE" | $24.95 | yes | 7 |
+| 117 | SPIRIT TEE - PROPERTY OF AD DEPT | $24.95 | yes | 3 |
+| 118 | ST ROSE LADIES SHORT SLEEVE TEE - VNECK - PULLOVER | $21.95 | yes | 1 |
+| 119 | STADIUM BLANKET | $34.95 | yes | 1 |
+| 120 | STEM APPAREL | $27.95 | yes | 4 |
+| 121 | SWEATSHIRT - ADULT (MENS SIZED) NAVY/ LT BLUE / GRAY / WHITE | $29.95 | yes | 4 |
+| 122 | SWEATSHIRTS - YOUTH SIZED | $29.95 | yes | 4 |
+| 123 | TEE- ADULT SIZING SPIRIT TEES | $27.95 | yes | 6 |
+| 124 | TEE- YOUTH SIZED SPIRIT SHIRTS | $27.95 | yes | 4 |
+| 125 | TRIBEGEAR -MENS SIZED TEES | $24.95 | yes | 1 |
+| 126 | TRUCKER HATS WITH PATCH | $29.95 | yes | 1 |
+| 127 | USA FLAG DESIGN | $27.95 | yes | 8 |
+| 128 | VARISTY INSULATED HOODED JACKET - MENS SIZED | $89.95 | yes | 2 |
+| 129 | VEHICLE DECALS | $4.95 | yes | 4 |
+| 130 | WE ARE EAGLES APPAREL | $24.95 | yes | 5 |
+| 131 | WE ARE EAGLES DESIGN | $24.95 | yes | 4 |
+| 132 | YOUTH & LADIES "POM" APPAREL | $24.95 | yes | 6 |
+| 133 | YOUTH CORE JACKET | $44.95 | yes | 1 |
+| 134 | YOUTH OR ADULT ROYAL PULLOVER | $34.95 | yes | 1 |
+| 135 | YOUTH OR ADULT ZIPPERED SWEATSHIRT | $34.95 | yes | 1 |
+| 136 | ZIPPERED HOODIES - ADULT SIZING NAVY / GRAY / LT BLUE / WHITE | $34.95 | yes | 4 |
+| 137 | ZIPPERED HOODIES - YOUTH SIZING NAVY / GRAY / LT BLUE / WHITE | $34.95 | yes | 4 |
