@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greggory Design — Custom Apparel &amp; Design · Phoenix, AZ</title>
+<meta name="description" content="Greggory Design — custom apparel, screen printing, embroidery, and spirit wear for Arizona schools, teams, and businesses. Bring your logo. We'll make it legendary.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0c0c0e; --ink-2:#131318; --paper:#f3efe4; --paper-dim:#b9b4a6;
+  --blood:#e11631; --blood-2:#a50d24; --steel:#7e7e88;
+  --line:rgba(243,239,228,.13);
+  --maxw:1280px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--ink); color:var(--paper);
+  font-family:'Archivo',system-ui,sans-serif; line-height:1.5;
+  overflow-x:hidden; -webkit-font-smoothing:antialiased;
+}
+/* grain overlay */
+body::after{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:9999; opacity:.05; mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+h1,h2,h3,.display{font-family:'Anton',sans-serif; font-weight:400; text-transform:uppercase; line-height:.92; letter-spacing:.005em}
+.kicker{font-family:'Oswald',sans-serif; text-transform:uppercase; letter-spacing:.34em; font-weight:600; font-size:.74rem; color:var(--blood)}
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 clamp(20px,5vw,56px)}
+a{color:inherit; text-decoration:none}
+
+/* ---- NAV ---- */
+.nav{position:fixed; top:0; left:0; right:0; z-index:100; transition:background .3s, border-color .3s, padding .3s;
+  border-bottom:1px solid transparent; padding:18px 0}
+.nav.scrolled{background:rgba(12,12,14,.82); backdrop-filter:blur(12px); border-color:var(--line); padding:11px 0}
+.nav__in{display:flex; align-items:center; justify-content:space-between; gap:24px}
+.brand{display:flex; align-items:center; gap:12px; font-family:'Anton'; text-transform:uppercase; font-size:1.18rem; letter-spacing:.02em}
+.brand .mark{display:grid; place-items:center; width:34px; height:34px; background:var(--blood); color:#fff; font-size:1rem; transform:rotate(-6deg); box-shadow:3px 3px 0 #000}
+.nav__links{display:flex; gap:30px; font-family:'Oswald'; text-transform:uppercase; letter-spacing:.12em; font-size:.82rem; font-weight:500}
+.nav__links a{position:relative; color:var(--paper-dim); transition:color .2s}
+.nav__links a::after{content:""; position:absolute; left:0; bottom:-6px; height:2px; width:0; background:var(--blood); transition:width .25s}
+.nav__links a:hover{color:var(--paper)} .nav__links a:hover::after{width:100%}
+.btn{display:inline-flex; align-items:center; gap:10px; font-family:'Oswald'; text-transform:uppercase; letter-spacing:.14em; font-weight:600; font-size:.82rem;
+  padding:13px 22px; background:var(--blood); color:#fff; border:0; cursor:pointer; transition:transform .15s, background .2s; clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px)}
+.btn:hover{background:var(--blood-2); transform:translateY(-2px)}
+.btn--ghost{background:transparent; color:var(--paper); border:1px solid var(--line)}
+.btn--ghost:hover{background:var(--paper); color:var(--ink)}
+.nav .btn{padding:11px 18px}
+@media(max-width:880px){.nav__links{display:none}}
+
+/* ---- HERO ---- */
+.hero{position:relative; min-height:100vh; display:flex; align-items:center; padding-top:120px; padding-bottom:60px; overflow:hidden}
+.hero__ghost{position:absolute; right:-4%; top:8%; font-family:'Anton'; font-size:clamp(10rem,34vw,30rem); color:transparent;
+  -webkit-text-stroke:1.5px rgba(243,239,228,.05); text-stroke:1.5px rgba(243,239,228,.05); pointer-events:none; user-select:none; z-index:0; line-height:.8}
+.hero__slash{position:absolute; inset:0; z-index:0; pointer-events:none;
+  background:linear-gradient(115deg, transparent 0 58%, rgba(225,22,49,.10) 58% 60%, transparent 60% 64%, rgba(225,22,49,.06) 64% 65%, transparent 65%)}
+.hero__grid{position:relative; z-index:2; display:grid; grid-template-columns:1.15fr .85fr; gap:40px; align-items:center; width:100%}
+.hero__title{font-size:clamp(3.2rem,11.5vw,10.5rem)}
+.hero__title .blood{color:var(--blood)}
+.hero__title .outline{color:transparent;-webkit-text-stroke:2px var(--paper)}
+.hero__sub{max-width:30em; margin:24px 0 0; color:var(--paper-dim); font-size:clamp(1rem,1.5vw,1.18rem)}
+.hero__cta{display:flex; gap:14px; margin-top:34px; flex-wrap:wrap}
+.hero__meta{display:flex; gap:26px; margin-top:40px; font-family:'Oswald'; text-transform:uppercase; letter-spacing:.12em; font-size:.76rem; color:var(--steel); flex-wrap:wrap}
+.hero__meta b{color:var(--paper); font-weight:600}
+/* hero collage */
+.collage{position:relative; height:min(560px,72vh)}
+.hcard{position:absolute; width:60%; aspect-ratio:4/5; background:var(--paper); padding:14px; box-shadow:14px 18px 40px rgba(0,0,0,.55); border:1px solid rgba(0,0,0,.1)}
+.hcard img{width:100%; height:100%; object-fit:contain}
+.hcard--1{right:2%; top:0; transform:rotate(5deg); z-index:3}
+.hcard--2{left:0; top:24%; transform:rotate(-7deg); z-index:2; width:55%}
+.hcard--3{right:14%; bottom:-2%; transform:rotate(3deg); z-index:1; width:50%; filter:saturate(1.05)}
+.hcard::after{content:"EST. AZ"; position:absolute; bottom:-14px; left:-14px; background:var(--blood); color:#fff; font-family:'Oswald'; font-weight:700; letter-spacing:.16em; font-size:.62rem; padding:6px 10px; transform:rotate(-4deg)}
+.hcard--2::after,.hcard--3::after{content:none}
+@media(max-width:880px){.hero__grid{grid-template-columns:1fr} .collage{display:none}}
+
+/* staggered reveal */
+.reveal{opacity:0; transform:translateY(26px); animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1; transform:none}}
+.d1{animation-delay:.05s}.d2{animation-delay:.18s}.d3{animation-delay:.31s}.d4{animation-delay:.44s}.d5{animation-delay:.57s}
+
+/* ---- MARQUEE ---- */
+.ticker{border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:var(--blood); color:#fff; overflow:hidden; padding:14px 0}
+.ticker__track{display:flex; gap:0; white-space:nowrap; width:max-content; animation:scroll 28s linear infinite; font-family:'Anton'; text-transform:uppercase; font-size:1.5rem; letter-spacing:.04em}
+.ticker__track span{padding:0 26px; display:inline-flex; align-items:center; gap:26px}
+.ticker__track .star{color:rgba(255,255,255,.55)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* ---- SECTION SHELL ---- */
+section{position:relative}
+.band{padding:clamp(70px,9vw,120px) 0}
+.head{display:flex; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:48px; flex-wrap:wrap}
+.head h2{font-size:clamp(2.4rem,6vw,4.6rem)}
+.head p{color:var(--paper-dim); max-width:24em; font-size:1rem}
+
+/* ---- CAPABILITIES ---- */
+.caps{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--line); border:1px solid var(--line)}
+.cap{background:var(--ink); padding:34px 26px 40px; transition:background .25s}
+.cap:hover{background:var(--ink-2)}
+.cap__no{font-family:'Anton'; color:var(--blood); font-size:1.1rem; letter-spacing:.1em}
+.cap h3{font-size:1.5rem; margin:18px 0 10px}
+.cap p{color:var(--paper-dim); font-size:.95rem}
+@media(max-width:900px){.caps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.caps{grid-template-columns:1fr}}
+
+/* ---- GALLERY ---- */
+.grid{display:grid; grid-template-columns:repeat(4,1fr); gap:18px}
+@media(max-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:680px){.grid{grid-template-columns:repeat(2,1fr)}}
+.tile{position:relative; background:var(--ink-2); overflow:hidden; border:1px solid var(--line)}
+.tile__frame{aspect-ratio:1/1; background:var(--paper); display:grid; place-items:center; padding:9%; overflow:hidden}
+.tile__frame img{width:100%; height:100%; object-fit:contain; transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.tile:hover .tile__frame img{transform:scale(1.07)}
+.tile figcaption{display:flex; align-items:center; justify-content:space-between; gap:10px; padding:14px 16px;
+  font-family:'Oswald'; text-transform:uppercase; letter-spacing:.05em}
+.tile__name{font-size:.72rem; font-weight:500; color:var(--paper); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.tile__price{font-size:.8rem; font-weight:700; color:var(--blood); flex:none}
+.tile::before{content:"VIEW"; position:absolute; top:12px; right:12px; z-index:3; font-family:'Oswald'; font-weight:700; letter-spacing:.18em; font-size:.6rem;
+  background:var(--blood); color:#fff; padding:6px 9px; opacity:0; transform:translateY(-6px); transition:.25s}
+.tile:hover::before{opacity:1; transform:none}
+
+/* ---- CUSTOM CTA BAND ---- */
+.cta{background:var(--blood); color:#fff; text-align:center; padding:clamp(60px,8vw,110px) 0; position:relative; overflow:hidden}
+.cta__ghost{position:absolute; inset:0; display:grid; place-items:center; font-family:'Anton'; font-size:clamp(8rem,26vw,22rem); color:rgba(255,255,255,.08); pointer-events:none}
+.cta h2{position:relative; font-size:clamp(2.6rem,7vw,6rem); max-width:14em; margin:0 auto}
+.cta p{position:relative; margin:18px auto 30px; max-width:34em; color:rgba(255,255,255,.85)}
+.cta .btn{background:#fff; color:var(--ink)} .cta .btn:hover{background:var(--ink); color:#fff}
+.cta__phone{position:relative; display:block; margin-top:22px; font-family:'Anton'; font-size:clamp(1.8rem,5vw,3rem); letter-spacing:.02em}
+
+/* ---- SPIRIT / TEAMS ---- */
+.teams{display:grid; grid-template-columns:1.1fr .9fr; gap:48px; align-items:center}
+.teams__stats{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line)}
+.stat{background:var(--ink); padding:28px 24px}
+.stat b{font-family:'Anton'; font-size:clamp(2.4rem,5vw,3.4rem); color:var(--paper); display:block; line-height:1}
+.stat span{font-family:'Oswald'; text-transform:uppercase; letter-spacing:.14em; font-size:.72rem; color:var(--blood)}
+.teams__list{display:flex; flex-wrap:wrap; gap:10px; margin-top:22px}
+.chip{font-family:'Oswald'; text-transform:uppercase; letter-spacing:.1em; font-size:.74rem; padding:8px 14px; border:1px solid var(--line); color:var(--paper-dim)}
+@media(max-width:880px){.teams{grid-template-columns:1fr}}
+
+/* ---- FOOTER ---- */
+footer{border-top:1px solid var(--line); padding:64px 0 40px}
+.foot{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:40px}
+.foot h4{font-family:'Oswald'; text-transform:uppercase; letter-spacing:.18em; font-size:.74rem; color:var(--blood); margin-bottom:16px}
+.foot p,.foot a{color:var(--paper-dim); font-size:.95rem; display:block; margin-bottom:8px; transition:color .2s}
+.foot a:hover{color:var(--paper)}
+.foot__brand .display{font-size:2.4rem; margin-bottom:14px}
+.foot__bottom{display:flex; justify-content:space-between; gap:16px; margin-top:48px; padding-top:22px; border-top:1px solid var(--line);
+  font-family:'Oswald'; text-transform:uppercase; letter-spacing:.12em; font-size:.7rem; color:var(--steel); flex-wrap:wrap}
+@media(max-width:760px){.foot{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.foot{grid-template-columns:1fr}}
+.reveal-up{opacity:0; transform:translateY(30px); transition:opacity .7s, transform .7s}
+.reveal-up.in{opacity:1; transform:none}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a class="brand" href="#top"><span class="mark">GD</span>Greggory&nbsp;Design</a>
+    <div class="nav__links">
+      <a href="#work">The Lineup</a>
+      <a href="#what">What We Do</a>
+      <a href="#teams">Spirit Wear</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="btn" href="tel:+16026253862">Get A Quote</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero__slash"></div>
+  <div class="hero__ghost">GD</div>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="kicker reveal d1">Custom Apparel &amp; Design · Phoenix, AZ</p>
+      <h1 class="hero__title reveal d2">Wear It<br><span class="blood">Loud.</span> <span class="outline">Rep</span><br>Your Team.</h1>
+      <p class="hero__sub reveal d3">Screen printing, embroidery, and custom design for the schools, teams, and businesses that don't blend in. You bring the logo — we make it legendary.</p>
+      <div class="hero__cta reveal d4">
+        <a class="btn" href="#work">Shop The Lineup</a>
+        <a class="btn btn--ghost" href="#contact">Start A Custom Order</a>
+      </div>
+      <div class="hero__meta reveal d5">
+        <span><b>137+</b> Products</span>
+        <span><b>Print</b> · Embroider · Design</span>
+        <span><b>Schools</b> · Teams · Clubs</span>
+      </div>
+    </div>
+    <div class="collage reveal d3">
+        <div class="hcard hcard--1"><img src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A2-f1e0be2.png/:/rs=w:700,m" alt="PROUD EAGLE&quot; SPIRIT DESIGN"></div>
+        <div class="hcard hcard--2"><img src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A14-28e5399.png/:/rs=w:700,m" alt="North Valley Christian Academy Lions T-Shirt"></div>
+        <div class="hcard hcard--3"><img src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A3-de365f1.png/:/rs=w:700,m" alt="CUSTOM ARTWORK -Charles Barkley pencil drawing LIMITED PRINT (1-500) Signed by artist"></div>
+    </div>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>Custom Tees <i class="star">★</i> Embroidery <i class="star">★</i> Screen Printing <i class="star">★</i> Spirit Wear <i class="star">★</i> Team Orders <i class="star">★</i> Varsity Jackets <i class="star">★</i> Custom Artwork <i class="star">★</i></span>
+    <span>Custom Tees <i class="star">★</i> Embroidery <i class="star">★</i> Screen Printing <i class="star">★</i> Spirit Wear <i class="star">★</i> Team Orders <i class="star">★</i> Varsity Jackets <i class="star">★</i> Custom Artwork <i class="star">★</i></span>
+  </div>
+</div>
+
+<section class="band wrap" id="what">
+  <div class="head reveal-up">
+    <h2>What We<br>Bring</h2>
+    <p>One shop, head to toe. From a single custom tee to a full team kit and the signage to match.</p>
+  </div>
+  <div class="caps reveal-up">
+    <div class="cap"><div class="cap__no">01</div><h3>Screen<br>Printing</h3><p>Bold, durable prints on tees, hoodies, and spirit wear — built to survive game day and the wash after.</p></div>
+    <div class="cap"><div class="cap__no">02</div><h3>Embroidery</h3><p>Clean, stitched logos on polos, jackets, hats, and bags. The professional, lasts-forever finish.</p></div>
+    <div class="cap"><div class="cap__no">03</div><h3>Custom<br>Design</h3><p>Send your logo, mascot, or idea. We design it, mock it up, and put it on anything you can wear.</p></div>
+    <div class="cap"><div class="cap__no">04</div><h3>Team &amp;<br>Bulk Orders</h3><p>Whole rosters, whole schools, whole companies. Names, numbers, and matching gear — handled.</p></div>
+  </div>
+</section>
+
+<section class="band wrap" id="work">
+  <div class="head reveal-up">
+    <h2>The<br>Lineup</h2>
+    <p>A look at the gear coming out of the shop — spirit tees, custom designs, embroidered polos, signed prints, and more.</p>
+  </div>
+  <div class="grid reveal-up">
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/ARL-ea20a0b.png/:/rs=w:800,m" alt="GLITTER&quot; CHEER GEAR"></div>
+          <figcaption><span class="tile__name">GLITTER&quot; CHEER GEAR</span><span class="tile__price">$29.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A5-b82669e.png/:/rs=w:800,m" alt="EAGLE EYES SPIRIT APPAREL"></div>
+          <figcaption><span class="tile__name">EAGLE EYES SPIRIT APPAREL</span><span class="tile__price">$24.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A1-b404a7f.png/:/rs=w:800,m" alt="CUSTOM ARTWORK -LARRY FITZGERALD WATERCOLOR LIMITED PRINT (500)"></div>
+          <figcaption><span class="tile__name">CUSTOM ARTWORK -LARRY FITZGERALD WATERCOLOR LIMITED PRINT (500)</span><span class="tile__price">$150.00</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A16%20-%20Copy-fd7f2b0.png/:/rs=w:800,m" alt="POLO - LADIES &quot;NIKE&quot; NAVY &amp; WHITE DRI-FIT"></div>
+          <figcaption><span class="tile__name">POLO - LADIES &quot;NIKE&quot; NAVY &amp; WHITE DRI-FIT</span><span class="tile__price">$44.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A1-d919149.png/:/rs=w:800,m" alt="HAT - POM BEANIE"></div>
+          <figcaption><span class="tile__name">HAT - POM BEANIE</span><span class="tile__price">$19.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A6-e12d504.png/:/rs=w:800,m" alt="DUFFEL BAG - NEW ERA SHOUT OUT BAG"></div>
+          <figcaption><span class="tile__name">DUFFEL BAG - NEW ERA SHOUT OUT BAG</span><span class="tile__price">$79.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A3-c40fbff.png/:/rs=w:800,m" alt="STADIUM BLANKET"></div>
+          <figcaption><span class="tile__name">STADIUM BLANKET</span><span class="tile__price">$34.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A1-6ea2534.png/:/rs=w:800,m" alt="250TH ANNIVERSARY FLAG DESIGN"></div>
+          <figcaption><span class="tile__name">250TH ANNIVERSARY FLAG DESIGN</span><span class="tile__price">$29.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/FRONT%20OF%20SHIRT-e54e563.png/:/rs=w:800,m" alt="RIDGELINE CHEER I DESIGN"></div>
+          <figcaption><span class="tile__name">RIDGELINE CHEER I DESIGN</span><span class="tile__price">$24.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/HV1.png/:/rs=w:800,m" alt="WE ARE EAGLES DESIGN"></div>
+          <figcaption><span class="tile__name">WE ARE EAGLES DESIGN</span><span class="tile__price">$24.95</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A1-8369adf.png/:/rs=w:800,m" alt="CUSTOM ARTWORK -&quot;Bear&quot; Bryant with 2009 National Champions WATERCOLOR LIMITED PRINT (500)"></div>
+          <figcaption><span class="tile__name">CUSTOM ARTWORK -&quot;Bear&quot; Bryant with 2009 National Champions WATERCOLOR LIMITED PRINT (500)</span><span class="tile__price">$250.00</span></figcaption>
+        </figure>
+        <figure class="tile">
+          <div class="tile__frame"><img loading="lazy" src="https://img1.wsimg.com/isteam/ip/26553ac1-dddf-4707-9a36-819438d1743f/A9%20-%20Copy-6932c1a.png/:/rs=w:800,m" alt="VARISTY INSULATED HOODED JACKET - MENS SIZED"></div>
+          <figcaption><span class="tile__name">VARISTY INSULATED HOODED JACKET - MENS SIZED</span><span class="tile__price">$89.95</span></figcaption>
+        </figure>
+  </div>
+  <div style="margin-top:40px; text-align:center" class="reveal-up">
+    <a class="btn" href="https://greggorydesign.com/shop">See The Full Shop</a>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="cta__ghost" aria-hidden="true">GD</div>
+  <p class="kicker" style="color:#fff; position:relative">Bring Us Your Logo</p>
+  <h2>We'll Make It Legendary.</h2>
+  <p>Custom apparel and design for Arizona's schools, teams, clubs, and businesses. Tell us what you need — we'll quote it fast.</p>
+  <a class="btn" href="tel:+16026253862">Call The Shop</a>
+  <a class="cta__phone" href="tel:+16026253862">(602) 625-3862</a>
+</section>
+
+<section class="band wrap" id="teams">
+  <div class="teams">
+    <div class="reveal-up">
+      <p class="kicker">Reppin' Arizona</p>
+      <h2 style="font-size:clamp(2.2rem,5.5vw,4rem); margin:14px 0 16px">Built For The<br>Home Team.</h2>
+      <p style="color:var(--paper-dim); max-width:34em">From the North Valley Christian Academy Lions to the Ridgeline Academy Eagles, we kit out the schools, sports, and crews that wear their colors with pride — plus custom artwork, holiday drops, and first-responder gear.</p>
+      <div class="teams__list">
+        <span class="chip">Spirit Tees</span><span class="chip">Cheer Gear</span><span class="chip">Polos</span>
+        <span class="chip">Hoodies</span><span class="chip">Hats</span><span class="chip">Bags</span>
+        <span class="chip">Decals</span><span class="chip">Signed Prints</span>
+      </div>
+    </div>
+    <div class="teams__stats reveal-up">
+      <div class="stat"><b>137+</b><span>Products</span></div>
+      <div class="stat"><b>AZ</b><span>Phoenix Based</span></div>
+      <div class="stat"><b>2</b><span>Decoration Methods</span></div>
+      <div class="stat"><b>1</b><span>Shop, Head To Toe</span></div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="wrap">
+    <div class="foot">
+      <div class="foot__brand">
+        <div class="display">Greggory<br>Design</div>
+        <p>Custom apparel &amp; design.<br>Bring your logo. We'll make it legendary.</p>
+      </div>
+      <div>
+        <h4>Visit / Call</h4>
+        <a href="tel:+16026253862">(602) 625-3862</a>
+        <p>Phoenix, AZ 85086</p>
+        <p>Mon–Fri · 8:00a–5:00p</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <a href="https://greggorydesign.com/shop">Full Catalog</a>
+        <a href="#work">The Lineup</a>
+        <a href="#what">What We Do</a>
+        <a href="#contact">Custom Orders</a>
+      </div>
+    </div>
+    <div class="foot__bottom">
+      <span>© 2026 Greggory Design · Phoenix, AZ</span>
+      <span>Custom Apparel · Screen Print · Embroidery</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const nav=document.getElementById('nav');
+addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>40),{passive:true});
+const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal-up').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
